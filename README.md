@@ -14,8 +14,9 @@ CC-By Attribution 4.0
 ├── README.md
 ├── poster pptx/      The poster (PowerPoint)
 ├── figures/          Poster figures (PNG)
-├── supplementary/    Supplements S1 and S2 (Markdown)
-└── code/             R scripts for the engagement analysis
+├── supplementary analyses/  Supplements S1 and S2 (Markdown)
+├── code/             R scripts for the engagement analysis
+└── references/       Poster references (Markdown)
 ```
 
 ## Contents
@@ -26,8 +27,8 @@ CC-By Attribution 4.0
 
 | Supplement | What it covers |
 |---|---|
-| [S1. Test choice and sensitivity](supplementary/S1_engagement_sensitivity_and_test_choice.md) | Why the engagement analysis uses a paired Wilcoxon signed-rank test, and five sensitivity checks: sign test, Pratt zero handling, excluding the top 2 and top 3 accounts, and leave-one-out |
-| [S2. Full engagement results](supplementary/S2_AACAP_engagement_results.md) | Full Wilcoxon results for views, likes, replies and reposts, and a sensitivity analysis excluding the two accounts with the most followers |
+| [S1. Test choice and sensitivity](supplementary%20analyses/S1_engagement_sensitivity_and_test_choice.md) | Why the engagement analysis uses a paired Wilcoxon signed-rank test, and five sensitivity checks: sign test, Pratt zero handling, excluding the top 2 and top 3 accounts, and leave-one-out |
+| [S2. Full engagement results](supplementary%20analyses/S2_AACAP_engagement_results.md) | Full Wilcoxon results for views, likes, replies and reposts, and a sensitivity analysis excluding the two accounts with the most followers |
 
 | Figure | |
 |---|---|
@@ -38,6 +39,10 @@ CC-By Attribution 4.0
 |---|---|
 | [`code/SH_vs_nonSH_analysis.R`](code/SH_vs_nonSH_analysis.R) | Primary analysis: paired Wilcoxon signed-rank tests, Holm correction, effect sizes |
 | [`code/SH_vs_nonSH_sensitivity.R`](code/SH_vs_nonSH_sensitivity.R) | Test-choice diagnostics, follower and engagement exclusions, leave-one-out, sign tests, Pratt zero handling |
+
+| References | |
+|---|---|
+| [References](references/references.md) | Five works cited on the poster: online self-harm and eating disorder communities on Twitter/X, peer support around self-harm, and thematic analysis |
 
 ## AI Statement
 
